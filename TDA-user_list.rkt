@@ -104,3 +104,5 @@
     (if (userList? userList)
         (CUPRec userList username oldPassword newPassword)
         #f)))
+
+(provide (all-defined-out))
